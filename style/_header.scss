@@ -1,0 +1,62 @@
+@import "_variable.scss";
+
+header {
+    padding: 20px;
+    background: $opacityBlack;
+    border-bottom: 3px solid $yellow;
+    margin-bottom: 20px;
+
+    .header-up {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 658px;
+        margin: 0 auto 20px;
+
+        @media all and (max-width: 650px) {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .logo-wrap {
+            img {
+                width: 108px;
+            }
+        }
+        .title {
+            max-width: 455px;
+            
+            @media all and (max-width: 800px) {
+                font-size: 20px;
+                text-align: center;
+            }
+
+        }
+    }
+    
+    .header-menu {
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            li {
+                width: 224px;
+                margin: 10px;
+                padding: 0;
+
+                .item-menu {
+                    display: block;
+                    font-family: "PressStart", sans-serif;
+                    color: white;
+                    width: inherit;
+                    text-align: center;
+                    margin: 0;
+                    padding: 10px 0;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@import "_variable.scss";
+
+section {
+    .content-container {
+        background-color: $opacityBlack;
+        color: white;
+        border: 3px solid $yellow;
+        padding: 30px;
+
+        &.item-ch-list {
+            .item-element {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                padding: 10px 0;
+                border-bottom: 1px solid $yellow;
+
+                &:last-child {
+                    border: none;
+                }
+
+                div {
+                    text-align: center;
+                    width: 220px;
+                    margin: 10px;
+                    padding: 10px;
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                }
+
+            }
+        }
+
+    }
+}

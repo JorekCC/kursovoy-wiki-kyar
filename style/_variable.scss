@@ -1,0 +1,19 @@
+@import "_mixins.scss";
+
+$yellow: #FFE60A;
+$opacityBlack: rgba(0, 0, 0, .8);
+
+
+@font-face {
+    font-family: "RobotoR"; 
+    src: url("../fonts/RobotoSlap-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "PressStart"; 
+    src: url("../fonts/PressStart2P-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
